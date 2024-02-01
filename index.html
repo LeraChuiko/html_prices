@@ -15,16 +15,17 @@
 
       .pricing-container{
         display: flex;
-        justify-content:center;
+        justify-content:space-around;
         align-items: center;
         height: 100vh;
-        gap: 2rem;
+        gap: 1rem;
 
         
       }
       .pricing-plan{
         flex: 1; /* все планы равны по ширине */
-        max-width: 400px;
+        max-width: 300px;
+
         padding: 20px;
       background-color: rgb(240, 240, 240);
       border-radius: 5%;
@@ -34,22 +35,21 @@
       .plan-title{
       font-weight:bold;
       margin: 0px;
-      font-size: 24px;
+      font-size: 1rem;
       margin-bottom: 10px;
             }
 
       .plan-price{
         margin-bottom: 10px;
         font-weight:bold;
-        font-size: 48px;
+        font-size: 2rem;
       }
 
       .plan-features{
         list-style-type:none;
         margin:0px;
         padding: 0px;
-        
-             }
+      }
      
       .plan-features li{
         margin-bottom: 10px; 
@@ -73,7 +73,11 @@
         .pricing-container{
         flex-direction: column;
         height: 100%;
-        }
+        margin: 50px;
+                }
+       .pricing-plan{
+        width: 300px;
+                }
 
           
       } 
